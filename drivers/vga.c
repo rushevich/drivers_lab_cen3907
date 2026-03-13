@@ -1,4 +1,5 @@
 #include "vga.h"
+#include <conio.h>
 
 void vga_set_mode(uint8_t mode) {
   _asm
